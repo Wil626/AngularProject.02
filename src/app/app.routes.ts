@@ -7,6 +7,7 @@ import { PhysicalComponent } from './physical/physical.component';
 import { DigitalComponent } from './digital/digital.component';
 import { FooterComponent } from './footer/footer.component';
 import { ReportsComponent } from './reports/reports.component';
+import { RecentActivityComponent } from './recent-activity/recent-activity.component';
 
 export const routes: Routes = [
 
@@ -30,6 +31,10 @@ export const routes: Routes = [
     {
       path: 'reports',
       component: ReportsComponent
+    },
+    {
+      path: 'recent-activity',
+      component: RecentActivityComponent
     }
 
   ]
