@@ -6,6 +6,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { PhysicalComponent } from './physical/physical.component';
 import { DigitalComponent } from './digital/digital.component';
 import { FooterComponent } from './footer/footer.component';
+import { ReportsComponent } from './reports/reports.component';
+
 export const routes: Routes = [
 
 {
@@ -24,6 +26,10 @@ export const routes: Routes = [
     {
       path: 'digital',
       component: DigitalComponent
+    },
+    {
+      path: 'reports',
+      component: ReportsComponent
     }
 
   ]
